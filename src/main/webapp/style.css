@@ -1,0 +1,74 @@
+@charset "ISO-8859-1";
+
+/** @format */
+
+*{
+  padding: 0px;
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+textarea[placeholder] {
+  font-size: larger;
+}
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#logoText {
+  margin-left: 7px;
+  display: inline;
+  vertical-align: middle;
+  font-size: larger;
+  text-decoration: none;
+}
+
+#logoText a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+
+.text {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.text p {
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: start
+}
+
+.count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+.buttonContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+#button {
+  margin-right: 10px;
+  height: 40px;
+}
+
+#copy {
+  height: 40px;
+  background-color: rgb(24, 90, 148);
+}
